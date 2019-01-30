@@ -10,9 +10,4 @@ def reverse_each_word(sentence2)
 	end
 end
 
-def collect
-	sentence1.collect do |x|
-		x.reverse!
-	end
-end
 
