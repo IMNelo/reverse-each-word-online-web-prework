@@ -5,7 +5,7 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_each_word(sentence2)
-	sentence2.map do |x|
+	sentence2.each do |x|
 		x.reverse!
 	end
 end
